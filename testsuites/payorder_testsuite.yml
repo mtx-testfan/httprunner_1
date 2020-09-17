@@ -1,0 +1,8 @@
+config:
+    name: "支付订单测试套件"
+
+
+testcases:
+-
+    name: 支付订单测试套件
+    testcase: testcases/order_testcase.yml

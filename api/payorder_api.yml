@@ -1,0 +1,11 @@
+name: 支付接口
+variables:
+    var1: value1
+    var2: value2
+request:
+    url: $location
+    method: GET
+    json:
+        key: $var2
+validate:
+    - eq: ["status_code", 200]
